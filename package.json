@@ -1,0 +1,32 @@
+{
+  "name": "gulp-task-runner",
+  "version": "1.0.0",
+  "description": "Gulp task runner",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "NODE_ENV=production gulp build",
+    "clean": "gulp clean",
+    "server": "gulp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melnichenkod/gulp-task-runner.git"
+  },
+  "author": "Dmytro Melnichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melnichenkod/gulp-task-runner/issues"
+  },
+  "homepage": "https://github.com/melnichenkod/gulp-task-runner#readme",
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
